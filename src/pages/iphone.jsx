@@ -7,9 +7,7 @@ export default function Iphone() {
     const [phone, setPhone] = useState ([
         {name:'iphone x', price:'1000', color:'black'},
         {name:'iphone 11', price:'2000', color:'white'},
-        {name:'iphone 12', price:'3000', color:'blue'},
-        {name:'iphone 13', price:'4000', color:'green'}
-    ]);
+   ]);
 
     const DeletePhone = (index) => {
         if (confirm("Are you sure you want to delete this phone?")) {
